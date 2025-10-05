@@ -8,7 +8,6 @@
     "build": "gulp"
   },
   "dependencies": {
-    "mockery": "1.0.1",
     "consolidate": "^1.0.3",
     "express": "4.19.2",
     "mustache": "^4",
