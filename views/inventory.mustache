@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Motors</title>
+    <!-- build:css -->
+    <link rel="stylesheet" href="/css/styles.css" />
+    <!-- endbuild -->
+</head>
+<body>
+    <main>
+        <header>
+            <div class="header-content">
+                <img src="/images/logo2.png" alt="Prime Motors Logo" class="logo">
+                <h1>Find Your Dream <span class="highlight">CAR</span></h1>
+                <button>Order Now</button>
+            </div>
+            <img src="/images/car2.png" alt="Red Car" class="main-image">
+        </header>
+        <section class="search-section">
+            <div class="search-box">
+                <div class="search-item">
+                    <label for="condition">New/Used</label>
+                    <select id="condition">
+                        <option>New & Used</option>
+                    </select>
+                </div>
+                <div class="search-item">
+                    <label for="make">Make</label>
+                    <select id="make">
+                        <option>INFINITI</option>
+                    </select>
+                </div>
+                <div class="search-item">
+                    <label for="model">Model</label>
+                    <select id="model">
+                        <option>All Models</option>
+                    </select>
+                </div>
+                <button class="search-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12.5 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                    </svg>
+                </button>
+            </div>
+        </section>
+        <section data-role="banner_holder">
+            <img src="/images/banner2.png" />
+        </section>
+        <table>
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>VIN</th>
+                    <th>Make & Model</th>
+                    <th>Year</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#cars}}
+                <tr>
+                    <td><img src="{{thumbnail}}" alt="Car Image" class="car-thumbnail"></td>
+                    <td>{{vin}}</td>
+                    <td>{{make_model}}</td>
+                    <td>{{year}}</td>
+                    <td>{{price}}</td>
+                </tr>
+                {{/cars}}
+            </tbody>
+        </table>
+    </main>
+    <!-- build:js -->
+    <script src="/js/main.js"></script>
+    <!-- endbuild -->
+</body>
+</html>

@@ -1,0 +1,86 @@
+[
+  {
+    "vin": "xxxx",
+    "make_model": "Honda Accord",
+    "year": "2020",
+    "price": "$22,000",
+    "thumbnail": "/images/2020_honda_accord.webp"
+  },
+  {
+    "vin": "xxxx",
+    "make_model": "Toyota Camry",
+    "year": "2019",
+    "price": "$20,000",
+    "thumbnail": "/images/2019_toyota_camery.webp"
+  },
+  {
+    "vin": "xxxx",
+    "make_model": "Ford Mustang",
+    "year": "2021",
+    "price": "$35,000",
+    "thumbnail": "/images/2021_ford_mustang.webp"
+  },
+  {
+    "vin": "xxxx",
+    "make_model": "Chevrolet Malibu",
+    "year": "2018",
+    "price": "$18,000",
+    "thumbnail": "/images/2018_malibu.webp"
+  },
+  {
+    "vin": "xxxx",
+    "make_model": "Tesla Model 3",
+    "year": "2022",
+    "price": "$40,000",
+    "thumbnail": "/images/2022_tesla.webp"
+  },
+  {
+    "vin": "xxxx",
+    "make_model": "BMW 3 Series",
+    "year": "2017",
+    "price": "$25,000",
+    "thumbnail": "/images/2017_bmw_3.webp"
+  },
+  {
+    "vin": "xxxx",
+    "make_model": "Audi A4",
+    "year": "2020",
+    "price": "$30,000",
+    "thumbnail": "/images/2020_audi_a4.webp"
+  },
+  {
+    "vin": "xxxx",
+    "make_model": "Mercedes-Benz C-Class",
+    "year": "2021",
+    "price": "$38,000",
+    "thumbnail": "/images/2021_merc.webp"
+  },
+  {
+    "vin": "xxxx",
+    "make_model": "Lexus ES",
+    "year": "2019",
+    "price": "$28,000",
+    "thumbnail": "/images/2019_lexus.webp"
+  },
+  {
+    "vin": "xxxx",
+    "make_model": "Mazda CX-5",
+    "year": "2018",
+    "price": "$22,000",
+    "thumbnail": "/images/2018_mazda.webp"
+  },
+  {
+    "vin": "xxxx",
+    "make_model": "Nissan Altima",
+    "year": "2020",
+    "price": "$24,000",
+    "thumbnail": "/images/2020_altima.webp"
+  },
+  {
+    "vin": "xxxx",
+    "make_model": "Subaru Outback",
+    "year": "2021",
+    "price": "$27,000",
+    "thumbnail": "/images/2021_suburu.webp"
+  }
+]
