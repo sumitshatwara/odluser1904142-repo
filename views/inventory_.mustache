@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Motors</title>
+    <!-- build:css -->
+    <link rel="stylesheet" href="/css/styles.css" />
+    <!-- endbuild -->
+</head>
+<body>
+    <header>
+        <img src="/images/prime_logo.webp" alt="Prime Motors Logo" class="logo">
+    </header>
+    
+    <h1>Our Current Inventory</h1>
+    <img src="/images/dealer.webp" alt="Showroom" class="showroom">
+    <table>
+        <thead>
+            <tr>
+                <th>Image</th>
+                <th>VIN</th>
+                <th>Make & Model</th>
+                <th>Year</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{#cars}}
+            <tr>
+                <td><img src="{{thumbnail}}" alt="Car Image" class="car-thumbnail"></td>
+                <td>{{vin}}</td>
+                <td>{{make_model}}</td>
+                <td>{{year}}</td>
+                <td>{{price}}</td>
+            </tr>
+            {{/cars}}
+        </tbody>
+    </table>
+    
+    <!-- <img src="/images/service.webp" alt="Service Center" class="service-center"> -->
+    <!-- build:js -->
+    <script src="/js/main.js"></script>
+    <!-- endbuild -->
+</body>
+</html>
