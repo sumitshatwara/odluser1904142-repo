@@ -3,7 +3,7 @@ Application code used for the github wiz halftime demo
 
 You will need gulp installed to build this
 
-Once build run:
+Once build run :
 
 ```bash
 npm install -g gulp
