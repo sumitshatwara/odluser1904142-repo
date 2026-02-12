@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: CloudFormation template for a publicly accessible S3 bucket.
+
+Resources:
+  WideOpenBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: open_bucket_odluser2069244
+      AccessControl: PublicRead

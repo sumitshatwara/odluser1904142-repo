@@ -30,4 +30,3 @@ View in browser:
 ```bash
 http://localhost:3000
 ```
-?
