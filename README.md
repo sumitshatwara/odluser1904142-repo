@@ -9,7 +9,7 @@ Once build run :
 npm install -g gulp
 ```
 
-Then to test built version:
+Then to test built version :
 ```bash
 gulp
 node dist/app.js
